@@ -48,7 +48,7 @@ lower:
     limit:
       effort: 2000.0
       lower: 0.0
-      upper: 0.25
+      upper: 0.7
       velocity: 0.025
 
 upper:
@@ -70,7 +70,7 @@ upper:
     limit:
       effort: 2000.0
       lower: 0.0
-      upper: 0.25
+      upper: 0.7
       velocity: 0.025
 
 
