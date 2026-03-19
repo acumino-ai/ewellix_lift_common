@@ -154,7 +154,7 @@
       <limit
         effort="${parameters.lower.joint.limit.effort}"
         lower="${parameters.lower.joint.limit.lower}"
-        upper="${parameters.lower.joint.limit.upper}"
+        upper="0.7"
         velocity="${parameters.lower.joint.limit.velocity}"/>
       <axis xyz="0 0 1"/>
       <dynamics friction="0.01" damping="0.01"/>
@@ -182,7 +182,7 @@
       <limit
         effort="${parameters.upper.joint.limit.effort}"
         lower="${parameters.upper.joint.limit.lower}"
-        upper="${parameters.upper.joint.limit.upper}"
+        upper="0.7"
         velocity="${parameters.upper.joint.limit.velocity}"/>
       <dynamics friction="0.01" damping="0.01"/>
       <mimic joint="${tf_prefix}lower_joint"/>
