@@ -16,7 +16,7 @@
   <xacro:arg name="port" default="/dev/ttyUSB0"/>
   <xacro:arg name="baud" default="38400"/>
   <xacro:arg name="timeout" default="1000"/>
-  <xacro:arg name="conversion" default="3225"/>
+  <xacro:arg name="conversion" default="5000"/>
   <xacro:arg name="rated_effort" default="2000"/>
   <xacro:arg name="tolerance" default="0.005"/>
 
