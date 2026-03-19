@@ -47,7 +47,7 @@ lower:
   joint:
     limit:
       effort: 2000.0
-      lower: 0.2
+      lower: 0.7
       upper: 0.7
       velocity: 0.025
 
@@ -69,7 +69,7 @@ upper:
   joint:
     limit:
       effort: 2000.0
-      lower: 0.2
+      lower: 0.7
       upper: 0.7
       velocity: 0.025
 
